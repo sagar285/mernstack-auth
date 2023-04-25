@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.header-ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background-color: black;
+  height: 40px;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900;
+  color:white;
+  
+}
+a{
+    text-decoration: none;
+  color:whitesmoke;
+
+}
+a:hover{
+    color:blue;
+    font-style: italic;
+}
+.header-ul li{
+    margin-left: 80px;
+}
+.header-ul div{
+    display: flex;
+    margin-right:150px;
+}
+
+.header-ul div li{
+    margin-left: 12px;
+}
